@@ -1,3 +1,4 @@
+/*global style*/
 * {
   margin: 0;
   padding: 0;
@@ -15,9 +16,12 @@ body {
   margin: 0 auto;
 }
 
+.flex{
+  display: flex;
+}
+
 /*header*/
 header {
-  border: solid red;
   padding: 40px 4%;
 }
 
@@ -67,4 +71,27 @@ header .btn-contato button {
 
 header .btn-contato button:hover{
   box-shadow: 0px 0px 8px#01f701de;
+}
+
+/*hero*/
+section.topo-do-site{
+  border: solid red;
+  padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.txt-topo-site h1{
+  color: white;
+  font-size: 34px;
+  line-height: 40px;
+
+}
+
+.txt-topo-site span{
+  color: #00ff08;
 }
