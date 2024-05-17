@@ -86,7 +86,6 @@ header nav ul {
 
 /*hero*/
 section.topo-do-site {
-  border: solid red;
   padding: 40px 4%;
 }
 
@@ -119,6 +118,34 @@ section.topo-do-site .flex {
 /*ESPECIALIDADES*/
 section.especialidades{
   padding: 40px 4%;
+}
+
+section.especialidades .flex{
+  gap: 60px;
+}
+
+.especialidades .especialidades-box{
+  color: white;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 45px;
+
+  transition: .2s;
+}
+
+.especialidades .especialidades-box:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.521);
+}
+
+.especialidades .especialidades-box i{
+  font-size: 60px;
+  color: #00ff08;
+}
+
+.especialidades .especialidades-box h3{
+  font-size: 28px;
+  margin: 15px 0;
 }
 
 @keyframes flutuar {
