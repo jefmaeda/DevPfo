@@ -31,6 +31,15 @@ body {
   transition: 0.3s;
 }
 
+h2.titulo{
+  color: white;
+  font-size: 38px;
+  text-align: center;
+}
+h2.titulo span{
+  color: #00ff08;
+}
+
 /*header*/
 header {
   padding: 40px 4%;
@@ -105,6 +114,11 @@ section.topo-do-site .flex {
 .topo-do-site .img-topo-site img{
   position: relative;
   animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+/*ESPECIALIDADES*/
+section.especialidades{
+  padding: 40px 4%;
 }
 
 @keyframes flutuar {
